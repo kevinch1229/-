@@ -1,11 +1,11 @@
 # 職訓局 尖兵-智慧機械與AI人工智慧技術應用
 --- 
 ## Python 程式設計
-<details>
-    
-<summary>turtle 應用</summary>
+<details>   
+<summary>turtle 應用</summary>  
 
 - 繪圖工具實作
+  
 ```python
 import turtle
 import random
@@ -55,16 +55,13 @@ pen.hideturtle()
 
     # 5. 點擊視窗關閉程式
 s1.exitonclick()
-
 ```
-</details>
 
 [程式實作示意](images/jupyter_setup.png)
 
 ---
 
-### 色弱測試
-
+- 色弱測試
 ```python
 import datetime
 
@@ -103,7 +100,7 @@ a = sorted(students, key=lambda x: (x["年齡"], x["平均"]), reverse=True)
 for student in a:
     print(student)
 ```
-
+</details>
 ---
 
 ### 學生成績處理範例（版本 2）
