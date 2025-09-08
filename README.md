@@ -1,34 +1,68 @@
-# -
-職訓局 尖兵-智慧機械與AI人工智慧技術應用
-# 大數據資料分析技術課程筆記
+# 職訓局 尖兵-智慧機械與AI人工智慧技術應用
+--- 
+## Python 程式設計
 
-## 使用 Jupyter 寫程式
+### turtle 應用
 
-### 1. 先檢查並安裝模組
-- pandas
-- numpy
-- matplotlib
-- pillow
+- 繪圖工具實作
+```python
+import turtle
+import random
+# 1. 創建 Screen 物件（視窗）
+s1 = turtle.Screen()
+s1.title("Python Turtle - 紅心 ❤️")  # 設定視窗標題
+s1.bgcolor("white")  # 背景顏色
+s1.setup(width=800, height=600)  # 設定畫布大小
 
-開發環境：IDLE / PyCharm / VSCode
 
-### 2. 新的實驗介面
-- Google Colab
-- Jupyter Notebook
+# 2. 創建 Turtle 物件（畫筆）
+pen = turtle.Turtle()
+pen.speed(0)  # 畫筆速度（1=最慢，10=最快）
+pen.color("violet")  # 畫筆顏色
+pen.fillcolor("pink")  # 填充顏色
+pen.pensize(3)  # 畫筆粗細
+for n in range(20):
+    
+    scale = random.uniform(0.2, 0.8)
+    x = random.randint(-400, 400)
+    y = random.randint(-400, 400)
+    pen.up()
+    pen.goto(x, y)
+    pen.setheading(0)
+    pen.right(90)
+    pen.fd(100*scale)
+    pen.lt(90)
+    pen.down()
 
-安裝指令：
-```bash
-pip install jupyter
-pip install openpyxl
-pip install lxml
-pip list   # 查看已安裝模組
+    # 3. 開始繪製紅心
+    pen.begin_fill()  # 開始填充
+
+    # 繪製左半邊的曲線
+    pen.left(47)
+    pen.forward(250*scale)
+    pen.circle(100*scale, 200)  # 畫半圓（半徑40，角度200）
+
+    # 繪製右半邊的曲線
+    pen.right(136)
+    pen.circle(100*scale, 200)
+    pen.forward(250*scale)
+
+    pen.end_fill()  # 結束填充
+
+    # 4. 隱藏畫筆並顯示結果
+pen.hideturtle()
+
+    # 5. 點擊視窗關閉程式
+s1.exitonclick()
+
 ```
 
-![模組安裝示意](images/jupyter_setup.png)
+
+[程式實作示意](images/jupyter_setup.png)
 
 ---
 
-## 學生成績處理範例（版本 1）
+### 色弱測試
 
 ```python
 import datetime
@@ -71,7 +105,7 @@ for student in a:
 
 ---
 
-## 學生成績處理範例（版本 2）
+### 學生成績處理範例（版本 2）
 
 ```python
 import datetime
