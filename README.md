@@ -57,7 +57,7 @@ pen.hideturtle()
 s1.exitonclick()
 ```
 
-[程式實作示意](images/jupyter_setup.png)
+[程式實作示意] (Python 程式設計.md)
 
 ---
 
