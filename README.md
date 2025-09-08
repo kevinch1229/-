@@ -1,10 +1,11 @@
 # 職訓局 尖兵-智慧機械與AI人工智慧技術應用
 --- 
 ## Python 程式設計
-<details>   
-<summary>turtle 應用</summary>  
 
-- ### 繪圖工具實作
+
+- ## turtle 應用
+
+1. ### 繪圖工具實作
   
 ```python
 import turtle
@@ -61,7 +62,7 @@ s1.exitonclick()
 
 ---
 
-- ### 色弱測試
+   2. ### 色弱測試
 ```python
 # 老師模組.py
 import random
@@ -190,7 +191,7 @@ t1.hideturtle()
 s1.onscreenclick(點擊事件)
 s1.mainloop()
 ```
-- ### 動畫實作
+  3. ### 動畫實作
 ```python
 import turtle
 
@@ -249,7 +250,6 @@ while True :
     y = y + yd
 turtle.done()
 ```
-</details>
 ---
 
 
