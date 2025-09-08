@@ -1,8 +1,9 @@
 # 職訓局 尖兵-智慧機械與AI人工智慧技術應用
 --- 
 ## Python 程式設計
-
-### turtle 應用
+<details>
+    
+<summary>turtle 應用</summary>
 
 - 繪圖工具實作
 ```python
@@ -56,7 +57,7 @@ pen.hideturtle()
 s1.exitonclick()
 
 ```
-
+</details>
 
 [程式實作示意](images/jupyter_setup.png)
 
