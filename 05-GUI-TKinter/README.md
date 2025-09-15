@@ -2,7 +2,7 @@
 ---
 
 ## Pack物件佈局
-![圖片24](../assets/images/turtle24.png)
+![圖片24](../Image/turtle24.png)
 ```python
 import tkinter as tk
 
@@ -59,7 +59,7 @@ root.mainloop()
 ---
 
 ## 使用者登入UI
-![圖片25](../assets/images/turtle25.png)
+![圖片25](../Image/turtle25.png)
 ```python
 import tkinter as tk
 from tkinter import ttk
@@ -88,7 +88,7 @@ root.mainloop()
 ---
 
 ## Youtube下載器
-![圖片26](../assets/images/turtle26.png)
+![圖片26](../Image/turtle26.png)
 ```python
 # 下載YT影片
 import os
@@ -149,7 +149,7 @@ else :
 ---
 
 ## 簡易塗鴉畫板
-![圖片27](../assets/images/turtle27.png)
+![圖片27](../Image/turtle27.png)
 ```python
 # 塗鴉_使用_canvas
 
@@ -292,7 +292,7 @@ if __name__ == "__main__":
 ---
 
 ## Turtle-彈跳球動畫
-![圖片28](../assets/images/turtle28.png)
+![圖片28](../Image/turtle28.gif)
 ```python
 import turtle
 
@@ -354,7 +354,7 @@ turtle.done()
 ---
 
 ## Canvas-彈跳球動畫
-![圖片29](../assets/images/turtle29.png)
+![圖片29](../Image/turtle29.gif)
 ```python
 # 動畫簡介_使用canvas
 
@@ -435,7 +435,7 @@ root.mainloop()
 ---
 
 ## Canvas-版面安排
-![圖片30](../assets/images/turtle30.png)
+![圖片30](../Image/turtle30.png)
 ```python
 import tkinter as tk# 導入圖形界面庫
 
