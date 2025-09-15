@@ -2,7 +2,7 @@
 ---
 
 ## 網路圖片下載(資料收集)
-![圖片31](../assets/images/turtle31.png)
+![圖片31](../Image/turtle31.jpg)
 ```python
 from selenium import webdriver  # 導入網頁自動化工具
 from bs4 import BeautifulSoup  # 導入HTML解析庫
@@ -60,12 +60,12 @@ for idx, img_src in enumerate(images):
 ---
 
 ## 簡易機器模型訓練-影像相似度比對
-![圖片36](../assets/images/turtle36.png)
+![圖片36](../Image/turtle32.jpg)
 
 ---
 
 ## OpenCV-圖片臉部偵測
-![圖片32](../assets/images/turtle32.png)
+![圖片32](../Image/turtle32.png)
 ```python
 # OpenCV Haar Cascade 人臉偵測測試
 import cv2
@@ -95,7 +95,7 @@ cv2.destroyAllWindows()
 ---
 
 ## 臉部特徵點偵測
-![圖片33](../assets/images/turtle33.png)
+![圖片33](../Image/turtle33.png)
 ```python
 # dlib_test
 
@@ -156,7 +156,7 @@ cv2.waitKey(0)        #等待按鍵，隨後退出
 ---
 
 ## Mediapipe-全身偵測
-![圖片34](../assets/images/turtle34.png)
+![圖片34](../Image/turtle34.png)
 ```python
 # mediapipe_test
 
@@ -225,7 +225,7 @@ cv2.destroyAllWindows()
 ---
 
 ## Mpl_finance, talib 股票技術分析
-![圖片35](../assets/images/turtle35.png)
+![圖片35](../Image/turtle35.png)
 ```python
 # mpl_finance模組及talib模組測試
 
