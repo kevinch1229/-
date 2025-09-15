@@ -1,7 +1,7 @@
 # 大數據分析基本應用
 ---
 ## 字串解析並存入字典結構
-![圖片04](../assets/images/turtle04.png)
+![圖片04](../Image/turtle04.png)
 ```python
 import datetime
 
@@ -61,7 +61,7 @@ for student in a:
     print(student)
 ```
 ## Numpy-灰階影像輸出
-![圖片05](../assets/images/turtle05.png)
+![圖片05](../Image/turtle05.png)
 ```python
 import matplotlib.pyplot as plt
 import numpy as np
@@ -76,7 +76,7 @@ plt.show()
 ```
 ---
 ## Numpy-色階輸出
-![圖片06](../assets/images/turtle06.png)
+![圖片06](../Image/turtle06.png)
 ```python
 hex_color = ["#FED172","#F3742B","#B83A14","#612E37","#231650"]
 
@@ -105,7 +105,7 @@ plt.show()
 ---
 
 ## Numpy-影像色階輸出
-![圖片07](../assets/images/turtle07.png)
+![圖片07](../Image/turtle07.png)
 ```python
 # 利用numpy的陣列結構顯示彩色影像
 
@@ -144,7 +144,7 @@ plt.show()
 ---
 
 ## Numpy-陣列轉置
-![圖片08](../assets/images/turtle08.png)
+![圖片08](../Image/turtle08.png)
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
@@ -229,7 +229,7 @@ plt.tight_layout()
 plt.show()
 ```
 ---
-![圖片09](../assets/images/turtle09.png)
+![圖片09](../Image/turtle09.png)
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
@@ -308,7 +308,7 @@ plt.tight_layout()
 plt.show()
 ```
 ## Tidy Data
-![圖片10](../assets/images/turtle10.png)
+![圖片10](../Image/turtle10.png)
 ```python
 # 字串解析並存入字典結構  最後轉成 DF
 
@@ -347,7 +347,7 @@ df
 ```
 ---
 
-![圖片11](../assets/images/turtle11.png)
+![圖片11](../Image/turtle11.png)
 ```python
 # 字串解析並存入串列結構   最後轉成 DF  使用 pandas 自己的日期處理
 
@@ -393,8 +393,8 @@ df['年齡'] = today.year - df['生日'].dt.year - (
 df
 ```
 ---
-![圖片15](../assets/images/turtle15.png)
-![圖片16](../assets/images/turtle16.png)
+![圖片15](../Image/turtle15.png)
+![圖片16](../Image/turtle16.png)
 ```python
 df = pd.read_excel('新竹市重要遊憩據點遊客人次統計.xlsx')
 df = df.drop(columns=['Countycode', 'YYYMM'])
@@ -423,7 +423,7 @@ print(year_108_stats.to_string(index=False))
 ---
 
 ## Mplfinance資料圖形化
-![圖片12](../assets/images/turtle12.png)
+![圖片12](../Image/turtle12.png)
 ```python
 #使用mplfinance將資料圖形化
 
@@ -457,7 +457,7 @@ mpf.plot(df,type='candle')
 ```
 ---
 
-![圖片13](../assets/images/turtle13.png)
+![圖片13](../Image/turtle13.png)
 ```python
 #合併兩組資料圖形
 
@@ -518,7 +518,7 @@ mpf.plot(daily,type='candle',mav=(3,6,9))
 ```
 ---
 
-![圖片14](../assets/images/turtle14.png)
+![圖片14](../Image/turtle14.png)
 ```python
 # 合併csv
 
@@ -633,7 +633,7 @@ plt.show()  # 顯示圖表
 ---
 
 ## Matplotlib-折線圖
-![圖片17](../assets/images/turtle17.png)
+![圖片17](../Image/turtle17.png)
 ```python
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -701,7 +701,7 @@ plt.show()
 ---
 
 ## Matplotlib-長條圖
-![圖片18](../assets/images/turtle18.png)
+![圖片18](../Image/turtle18.png)
 ```python
 #長條圖
 
@@ -715,7 +715,7 @@ table.plot(kind='bar',
 ```
 ---
 
-![圖片19](../assets/images/turtle19.png)
+![圖片19](../Image/turtle19.png)
 ```python
 #水平長條圖
 
@@ -727,7 +727,7 @@ table.plot(kind='barh',
 ---
 
 ## 直方圖
-![圖片20](../assets/images/turtle20.png)
+![圖片20](../Image/turtle20.png)
 ```python
 #直方圖
 
@@ -740,7 +740,7 @@ table.plot(kind='hist',
 ---
 
 ## 區域圖
-![圖片21](../assets/images/turtle21.png)
+![圖片21](../Image/turtle21.png)
 ```python
 #區域圖
 
@@ -752,7 +752,7 @@ table.plot(kind='area',
 ---
 
 ## 圓餅圖
-![圖片22](../assets/images/turtle22.png)
+![圖片22](../Image/turtle22.png)
 ```python
 #圓餅圖
 
@@ -831,7 +831,7 @@ plt.show()
 ---
 
 ## 圓環圖
-![圖片23](../assets/images/turtle23.png)
+![圖片23](../Image/turtle23.png)
 ```python
 #圓環圖
 
