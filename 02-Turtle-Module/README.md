@@ -1,7 +1,7 @@
 # Turtle Graphic應用
 ---
 ## 繪製螺旋狀的幾何圖案
-![圖片01](../assets/images/turtle01.png)
+![圖片01](../Image/turtle01.png)
 ```python
 from turtle import *
 
@@ -29,7 +29,7 @@ done()
 ```
 ---
 ## Random Red Heart
-![圖片02](../assets/images/turtle02.png)
+![圖片02](../Image/turtle02.png)
 ```python
 import turtle
 import random 
@@ -83,7 +83,7 @@ s1.exitonclick()
 ```
 ---
 ## Turtle 色弱測驗
-![圖片03](../assets/images/turtle03.png)
+![圖片03](../Image/turtle03.png)
 ```python
 import turtle
 import random
